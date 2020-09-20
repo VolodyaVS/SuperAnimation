@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF54E55C251650B70054D6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E55B251650B70054D6A7 /* AppDelegate.swift */; };
+		CE9E0E9FC2A6CC4AF4DE3CA4 /* Pods_SuperAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48ADD9B7D6D04E000ADB0BA /* Pods_SuperAnimation.framework */; };
 		FF54E55E251650B70054D6A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E55D251650B70054D6A7 /* SceneDelegate.swift */; };
 		FF54E560251650B70054D6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E55F251650B70054D6A7 /* ViewController.swift */; };
 		FF54E563251650B70054D6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF54E561251650B70054D6A7 /* Main.storyboard */; };
 		FF54E565251650B80054D6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF54E564251650B80054D6A7 /* Assets.xcassets */; };
 		FF54E568251650B80054D6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF54E566251650B80054D6A7 /* LaunchScreen.storyboard */; };
+		FF54E579251662A70054D6A7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E578251662A70054D6A7 /* Animation.swift */; };
+		FF54E58A2516854F0054D6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E5892516854F0054D6A7 /* AppDelegate.swift */; };
+		FF54E58F251690610054D6A7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF54E58E251690610054D6A7 /* .gitignore */; };
+		FF54E5932517335C0054D6A7 /* Extension + Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E5922517335C0054D6A7 /* Extension + Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24DF3AE76FEAE70C2E0A2AA6 /* Pods-SuperAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAnimation.release.xcconfig"; path = "Target Support Files/Pods-SuperAnimation/Pods-SuperAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		B3017549E427CF5313686C00 /* Pods-SuperAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAnimation.debug.xcconfig"; path = "Target Support Files/Pods-SuperAnimation/Pods-SuperAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		F48ADD9B7D6D04E000ADB0BA /* Pods_SuperAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF54E558251650B70054D6A7 /* SuperAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF54E55B251650B70054D6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF54E55D251650B70054D6A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF54E55F251650B70054D6A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF54E562251650B70054D6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF54E564251650B80054D6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF54E567251650B80054D6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF54E569251650B80054D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF54E578251662A70054D6A7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		FF54E5892516854F0054D6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF54E58E251690610054D6A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FF54E5922517335C0054D6A7 /* Extension + Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E0E9FC2A6CC4AF4DE3CA4 /* Pods_SuperAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62007F9DEC56C4CF99FCA281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3017549E427CF5313686C00 /* Pods-SuperAnimation.debug.xcconfig */,
+				24DF3AE76FEAE70C2E0A2AA6 /* Pods-SuperAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5D2632C12DFB97159D74274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48ADD9B7D6D04E000ADB0BA /* Pods_SuperAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF54E54F251650B60054D6A7 = {
 			isa = PBXGroup;
 			children = (
 				FF54E55A251650B70054D6A7 /* SuperAnimation */,
 				FF54E559251650B70054D6A7 /* Products */,
+				62007F9DEC56C4CF99FCA281 /* Pods */,
+				A5D2632C12DFB97159D74274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,58 @@
 		FF54E55A251650B70054D6A7 /* SuperAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				FF54E55B251650B70054D6A7 /* AppDelegate.swift */,
-				FF54E55D251650B70054D6A7 /* SceneDelegate.swift */,
-				FF54E55F251650B70054D6A7 /* ViewController.swift */,
-				FF54E561251650B70054D6A7 /* Main.storyboard */,
-				FF54E564251650B80054D6A7 /* Assets.xcassets */,
-				FF54E566251650B80054D6A7 /* LaunchScreen.storyboard */,
-				FF54E569251650B80054D6A7 /* Info.plist */,
+				FF54E581251684710054D6A7 /* ViewControllers */,
+				FF54E582251684830054D6A7 /* Model */,
+				FF54E584251684B60054D6A7 /* Storyboards */,
+				FF54E585251684CF0054D6A7 /* SupportingFiles */,
+				FF54E587251684E10054D6A7 /* Sources */,
 			);
 			path = SuperAnimation;
+			sourceTree = "<group>";
+		};
+		FF54E581251684710054D6A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF54E55F251650B70054D6A7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FF54E582251684830054D6A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF54E578251662A70054D6A7 /* Animation.swift */,
+				FF54E5922517335C0054D6A7 /* Extension + Animation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF54E584251684B60054D6A7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FF54E566251650B80054D6A7 /* LaunchScreen.storyboard */,
+				FF54E561251650B70054D6A7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FF54E585251684CF0054D6A7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF54E58E251690610054D6A7 /* .gitignore */,
+				FF54E5892516854F0054D6A7 /* AppDelegate.swift */,
+				FF54E569251650B80054D6A7 /* Info.plist */,
+				FF54E55D251650B70054D6A7 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FF54E587251684E10054D6A7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FF54E564251650B80054D6A7 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF54E56C251650B80054D6A7 /* Build configuration list for PBXNativeTarget "SuperAnimation" */;
 			buildPhases = (
+				EDB5D434E7B4FA63961A022E /* [CP] Check Pods Manifest.lock */,
 				FF54E554251650B70054D6A7 /* Sources */,
 				FF54E555251650B70054D6A7 /* Frameworks */,
 				FF54E556251650B70054D6A7 /* Resources */,
+				B4D607410D0668377DCD84E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF54E58F251690610054D6A7 /* .gitignore in Resources */,
 				FF54E568251650B80054D6A7 /* LaunchScreen.storyboard in Resources */,
 				FF54E565251650B80054D6A7 /* Assets.xcassets in Resources */,
 				FF54E563251650B70054D6A7 /* Main.storyboard in Resources */,
@@ -132,13 +208,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4D607410D0668377DCD84E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperAnimation/Pods-SuperAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperAnimation/Pods-SuperAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperAnimation/Pods-SuperAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB5D434E7B4FA63961A022E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF54E554251650B70054D6A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF54E58A2516854F0054D6A7 /* AppDelegate.swift in Sources */,
 				FF54E560251650B70054D6A7 /* ViewController.swift in Sources */,
-				FF54E55C251650B70054D6A7 /* AppDelegate.swift in Sources */,
+				FF54E5932517335C0054D6A7 /* Extension + Animation.swift in Sources */,
+				FF54E579251662A70054D6A7 /* Animation.swift in Sources */,
 				FF54E55E251650B70054D6A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +403,12 @@
 		};
 		FF54E56D251650B80054D6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3017549E427CF5313686C00 /* Pods-SuperAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SuperAnimation/Info.plist;
+				INFOPLIST_FILE = SuperAnimation/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +422,12 @@
 		};
 		FF54E56E251650B80054D6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DF3AE76FEAE70C2E0A2AA6 /* Pods-SuperAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SuperAnimation/Info.plist;
+				INFOPLIST_FILE = SuperAnimation/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
