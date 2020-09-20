@@ -15,7 +15,6 @@
 		FF54E568251650B80054D6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF54E566251650B80054D6A7 /* LaunchScreen.storyboard */; };
 		FF54E579251662A70054D6A7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E578251662A70054D6A7 /* Animation.swift */; };
 		FF54E58A2516854F0054D6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E5892516854F0054D6A7 /* AppDelegate.swift */; };
-		FF54E58F251690610054D6A7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF54E58E251690610054D6A7 /* .gitignore */; };
 		FF54E5932517335C0054D6A7 /* Extension + Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54E5922517335C0054D6A7 /* Extension + Animation.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		FF54E569251650B80054D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF54E578251662A70054D6A7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		FF54E5892516854F0054D6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF54E58E251690610054D6A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FF54E5922517335C0054D6A7 /* Extension + Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +122,6 @@
 		FF54E585251684CF0054D6A7 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				FF54E58E251690610054D6A7 /* .gitignore */,
 				FF54E5892516854F0054D6A7 /* AppDelegate.swift */,
 				FF54E569251650B80054D6A7 /* Info.plist */,
 				FF54E55D251650B70054D6A7 /* SceneDelegate.swift */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF54E58F251690610054D6A7 /* .gitignore in Resources */,
 				FF54E568251650B80054D6A7 /* LaunchScreen.storyboard in Resources */,
 				FF54E565251650B80054D6A7 /* Assets.xcassets in Resources */,
 				FF54E563251650B70054D6A7 /* Main.storyboard in Resources */,
